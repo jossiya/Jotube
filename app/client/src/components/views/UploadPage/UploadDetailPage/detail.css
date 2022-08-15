@@ -1,0 +1,29 @@
+img.c{
+    opacity: 0.5;
+
+}
+
+input[type="radio"]:hover+img.c{
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 49.99999%;
+    -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+            transition: all 1s ease; 
+    
+}
+input[type="radio"]:checked + img.c{
+    opacity: 1 !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 49.99999%;
+    -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+            transition: all 1s ease; 
+}
+[type=radio]+img.c{
+    cursor: pointer;
+}

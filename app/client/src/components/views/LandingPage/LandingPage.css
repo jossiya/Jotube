@@ -1,0 +1,39 @@
+
+@media screen and (max-width: 1533px){
+    .landig_page{
+        margin-left : 2rem
+    }
+}
+@media screen and (max-width: 1246px){
+    .landig_page{
+        margin-left : 6rem
+    }
+}
+@media screen and (max-width: 1068px){
+    .landig_page{
+        margin-left : 6rem
+    }
+}
+@media screen and (max-width: 992px){
+    .landig_page{
+        margin-left : 2rem
+    }
+}
+
+@media screen and (max-width: 576px){
+    .landig_page{
+        margin-left : 2rem;
+    }
+    .col-card{
+        /* width: 50% ;  */
+        padding : 0 5rem !important;
+    }
+}
+.l_title{
+    display: -webkit-box;
+    white-space: normal;
+    line-height: 1.2;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
