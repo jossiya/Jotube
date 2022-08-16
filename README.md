@@ -13,3 +13,8 @@
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jossiya)](https://github.com/rolety2202/github-readme-stats)
 
 ### node.js와 react 를 server와 client로 나누어 진행하였습니다.
+
+<p>
+전반적인 페이지를 만들 때 <b>프론트엔드 부분</b>은 리액트를 사용하고,
+<b>백엔드 부분</b>은 NodeJS와 ExpressJS를 사용합니다.데이터베이스는 AWS를 이용한 MYSQL을 이용해서 컨트롤 했습니다.
+</p>
