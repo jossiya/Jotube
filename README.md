@@ -34,7 +34,7 @@
 <img width="40%" src="https://user-images.githubusercontent.com/96179069/184886186-c7f53232-8957-49bb-979f-d73a1e2c12cc.jpg"/><br/>
 
 #### 비디오 상세 페이지
-><img width="40%" src="https://user-images.githubusercontent.com/96179069/184886186-c7f53232-8957-49bb-979f-d73a1e2c12cc.jpg"/>
+><img width="40%" src="https://user-images.githubusercontent.com/96179069/184886186-c7f53232-8957-49bb-979f-d73a1e2c12cc.jpg"/><br/>
 >> 구독 좋아요 댓글
  <img width="40%" src="https://user-images.githubusercontent.com/96179069/184889383-0b735a92-3b14-495f-b093-2c92fdacd237.jpg"/><br/>
 
