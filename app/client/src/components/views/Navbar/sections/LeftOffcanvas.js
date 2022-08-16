@@ -47,7 +47,7 @@ const NavLink2=[
         title : "내 동영상",
   },
   {
-        path : "#/like",
+        path : `/LikedVideoPage/${user.userData?.uid}`,
         icon : <div className="d-flex justify-content-center "><AiOutlineLike size='25px'/></div>,
         title : "좋아요 한 동영상",
   },

@@ -31,7 +31,7 @@ function SideVideo() {
         <div style={{width:'100%', marginLeft:'1rem'}}>
             <a href={`/watch/${video.videoid}`}style={{display:'flex', flexDirection:'column', textDecorationLine:'none', color:'gray'}}>
                 <div className='side_title' style={{width:'90%',fontSize:'1rem', color:'black'}}>{video.title}</div>
-                <span>{video.name}</span>
+                <span>{video.nickname}</span>
                 <span>{video.views} views</span>
                 <span>{minutes} : {seconds} </span>
             </a>

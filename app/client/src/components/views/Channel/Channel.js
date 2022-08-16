@@ -42,7 +42,7 @@ if(user&&user.userData){
   console.log(uid.uid)
   if(uid.uid){
     return (
-      <div style={{width : "100%", marginTop : "3rem"}}>
+      <div className='c_page' style={{width : "100%", marginTop : "3rem"}}>
           <div>
               <List.Item.Meta style={{width : "100%" , padding : '3rem 6rem'}} 
                             avatar={<Avatar style={{marginLeft : '1rem'}}src={`http://localhost:5000/${UserInfo.image}`} size={80}/>}

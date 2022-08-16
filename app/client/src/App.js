@@ -17,6 +17,7 @@ import SubscriptionPage from './components/views/SupscriptionPage/SupscriptionPa
 import SearchPage from './components/views/SearchPage/SearchPage';
 import User from './components/views/User/User';
 import Channel from './components/views/Channel/Channel';
+import LikedVideoPage from './components/views/LikedVideoPage/LikedVideoPage';
 
 
 
@@ -66,6 +67,7 @@ function App() {
           <Route exact path="/video/result" element={<SearchPage/>}/>
           <Route exact path="/User/:uid" element={<User/>}/>
           <Route exact path="/Channel/:uid" element={<Channel/>}/>
+          <Route exact path="/LikedVideoPage/:uid" element={<LikedVideoPage/>}/>
           </Routes>
         </Col>}
       </Row>

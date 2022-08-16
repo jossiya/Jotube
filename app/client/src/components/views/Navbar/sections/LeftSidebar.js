@@ -42,7 +42,7 @@ function LeftSidebar(props) {
                   title : <div style={{width : "100%",textAlign : "center" }}>내동영상</div>,
             },
             {
-                  path : "#/like",
+                  path : `/LikedVideoPage/${user.userData?.uid}`,
                   icon: <div className="d-flex justify-content-center "><AiOutlineLike  size='25px'/></div>,
                   title : <div style={{width : "100%",textAlign : "center" }}>좋아요 한 동영상</div>,
             },

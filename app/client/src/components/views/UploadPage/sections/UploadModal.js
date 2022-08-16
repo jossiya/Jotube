@@ -21,7 +21,7 @@ function UploadModal(props) {
     {/* 모달 비디오 업로드  썸네일 자동생성 */}
     <div>
         <Modal
-        size="lg"
+        size="xl"
         show={state}
         onHide={onHideHandle}
         backdrop="static"
