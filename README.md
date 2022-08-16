@@ -22,8 +22,9 @@
  기본적인 <b>로그인 기능</b>은 node.js에서 로그인 정보들은 세션에 담아 client로 넘겨 Redux Toolkit을 사용하여 store에 저장하여 로그인 유지 기능과 인증 기능을 구현하였습니다.
 </p>
 동영상 업로드는 Dropzone을 사용하여 server로 넘겨 multer으로 서버에서 저장하게 하였습니다.
+
 ## 전반적인 페이지 구현
 #### 랜딩 페이지
-![기본 페이지](https://user-images.githubusercontent.com/96179069/184882462-7aa226e8-864c-48ed-9c74-b589ebdeaf63.jpg)
+
 
 
