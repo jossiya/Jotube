@@ -47,5 +47,8 @@
 #### 좋아요 페이지
 <img width="40%" src="https://user-images.githubusercontent.com/96179069/184890348-f2ee4be7-aa94-4924-aa88-65029e56720c.jpg"/><br/>
 
+#### 내채널
+<img width="40%" src="https://user-images.githubusercontent.com/96179069/184891038-53623f89-b331-4f8b-874c-d0a5fb955a76.jpg"/><br/>
+
 
 
