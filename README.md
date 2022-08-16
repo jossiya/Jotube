@@ -24,32 +24,29 @@
 
 
 ## 전반적인 페이지 구현
-#### 랜딩 페이지
+#### :dizzy:랜딩 페이지
 ><img width="40%" src="https://user-images.githubusercontent.com/96179069/184885127-2cfea83f-6f88-45b3-bbc3-ae51daf961eb.jpg"/><br/>
 >> 로그인 후<br/>
  <img width="40%" src="https://user-images.githubusercontent.com/96179069/184885761-b1f32509-d370-4e93-892d-d9347f534160.jpg"/><br/>
 
-#### 비디오 상세 페이지
-<img width="40%" src="https://user-images.githubusercontent.com/96179069/184886186-c7f53232-8957-49bb-979f-d73a1e2c12cc.jpg"/><br/>
-
-#### 비디오 상세 페이지
+#### :dizzy:비디오 상세 페이지
 ><img width="40%" src="https://user-images.githubusercontent.com/96179069/184886186-c7f53232-8957-49bb-979f-d73a1e2c12cc.jpg"/><br/>
 >> 구독 좋아요 댓글<br/>
  <img width="40%" src="https://user-images.githubusercontent.com/96179069/184889383-0b735a92-3b14-495f-b093-2c92fdacd237.jpg"/><br/>
 
-#### 검색 자동 완성
+#### :dizzy:검색 자동 완성
 <img width="40%" src="https://user-images.githubusercontent.com/96179069/184887998-d873a676-20df-462e-99c6-3acf933df63d.jpg"/><br/>
 
-#### 구독한 사람들 영상
+#### :dizzy:구독한 사람들 영상
 <img width="40%" src="https://user-images.githubusercontent.com/96179069/184890116-03b16ba6-fe6d-4311-aca3-f7269fabbeaa.jpg"/><br/>
 
-#### 좋아요 페이지
+#### :dizzy:좋아요 페이지
 <img width="40%" src="https://user-images.githubusercontent.com/96179069/184890348-f2ee4be7-aa94-4924-aa88-65029e56720c.jpg"/><br/>
 
-#### 내채널
+#### :dizzy:내채널
 <img width="40%" src="https://user-images.githubusercontent.com/96179069/184891038-53623f89-b331-4f8b-874c-d0a5fb955a76.jpg"/><br/>
 
-#### 채널 콘텐츠
+#### :dizzy:채널 콘텐츠
 ><img width="40%" src="https://user-images.githubusercontent.com/96179069/184891405-aebe6bbf-8ea9-4711-9a41-63fd2a8843ef.jpg"/><br/>
 >>업로드<br/>
 <b>동영상 업로드</b>는 Dropzone을 사용하여 server로 넘겨 multer으로 서버에서 저장하게 하였고, ffmpeg을 사용하여 동영상 자동 스크린샷을 찍게 하여
