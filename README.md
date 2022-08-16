@@ -25,7 +25,7 @@
 
 ## 전반적인 페이지 구현
 #### 랜딩 페이지
-<img width="{해상도 비율}" src="{이미지 경로}"/>
+<img width="40%" src="https://user-images.githubusercontent.com/96179069/184885127-2cfea83f-6f88-45b3-bbc3-ae51daf961eb.jpg"/>
 
 
 
