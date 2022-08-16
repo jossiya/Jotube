@@ -35,7 +35,7 @@
  <img width="40%" src="https://user-images.githubusercontent.com/96179069/184889383-0b735a92-3b14-495f-b093-2c92fdacd237.jpg"/><br/>
 
 #### :dizzy:검색 자동 완성
-<img width="40%" src="https://user-images.githubusercontent.com/96179069/184887998-d873a676-20df-462e-99c6-3acf933df63d.jpg"/><br/>
+<img width="40%" src="https://user-images.githubusercontent.com/96179069/184894244-32c231d1-8aff-4edd-94f8-3f947b289007.jpg"/><br/>
 
 #### :dizzy:구독한 사람들 영상
 <img width="40%" src="https://user-images.githubusercontent.com/96179069/184890116-03b16ba6-fe6d-4311-aca3-f7269fabbeaa.jpg"/><br/>
