@@ -27,7 +27,7 @@
 ## 전반적인 페이지 구현
 #### 랜딩 페이지
 ><img width="40%" src="https://user-images.githubusercontent.com/96179069/184885127-2cfea83f-6f88-45b3-bbc3-ae51daf961eb.jpg"/><br/>
->> 로그인 후
+>> 로그인 후<br/>
  <img width="40%" src="https://user-images.githubusercontent.com/96179069/184885761-b1f32509-d370-4e93-892d-d9347f534160.jpg"/><br/>
 
 #### 비디오 상세 페이지
