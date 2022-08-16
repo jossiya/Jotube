@@ -28,6 +28,7 @@
 <img width="40%" src="https://user-images.githubusercontent.com/96179069/184885127-2cfea83f-6f88-45b3-bbc3-ae51daf961eb.jpg"/>
 로그인 후
 <img width="40%" src="https://user-images.githubusercontent.com/96179069/184885761-b1f32509-d370-4e93-892d-d9347f534160.jpg"/><br/>
+
 #### 비디오 상세 페이지
 <img width="40%" src="https://user-images.githubusercontent.com/96179069/184886186-c7f53232-8957-49bb-979f-d73a1e2c12cc.jpg"/>
 
