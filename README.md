@@ -1,7 +1,7 @@
 # Jotube
+<p>개인적으로 만들어보는 유튜브 클론페이지 입니다.</p>
 ### 💪 Skills
 #### Platforms & Languages
-<p>개인적으로 만들어보는 유튜브 클론페이지 입니다.</p>
 <p>
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white"/> 
 <img src="https://img.shields.io/badge/JSS-FFCA28?style=flat-square&logo=JSS&logoColor=white"/> 
