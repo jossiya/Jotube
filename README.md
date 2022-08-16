@@ -21,8 +21,7 @@
  <br/>
  기본적인 <b>로그인 기능</b>은 node.js에서 로그인 정보들은 세션에 담아 client로 넘겨 Redux Toolkit을 사용하여 store에 저장하여 로그인 유지 기능과 인증 기능을 구현하였습니다.
 </p>
-<b>동영상 업로드</b>는 Dropzone을 사용하여 server로 넘겨 multer으로 서버에서 저장하게 하였고, ffmpeg을 사용하여 동영상 자동 스크린샷을 찍게 하여
-이미지를 자동 저장하게 하였습니다.
+
 
 ## 전반적인 페이지 구현
 #### 랜딩 페이지
@@ -53,6 +52,8 @@
 #### 채널 콘텐츠
 ><img width="40%" src="https://user-images.githubusercontent.com/96179069/184891405-aebe6bbf-8ea9-4711-9a41-63fd2a8843ef.jpg"/><br/>
 >>업로드<br/>
+>><b>동영상 업로드</b>는 Dropzone을 사용하여 server로 넘겨 multer으로 서버에서 저장하게 하였고, ffmpeg을 사용하여 동영상 자동 스크린샷을 찍게 하여
+이미지를 자동 저장하게 하였습니다.
   <img width="40%" src="https://user-images.githubusercontent.com/96179069/184891836-7a2d3761-0504-4593-9f8c-6c7aa54d17a9.jpg"/><br/>
 >>>업로드 상세페이지<br/>
    <img width="40%" src="https://user-images.githubusercontent.com/96179069/184892073-77ad34ec-f7cd-464b-bae2-6c0542da7da8.jpg"/><br/>
