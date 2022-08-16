@@ -1,5 +1,6 @@
 # Jotube
 <p>개인적으로 만들어보는 유튜브 클론페이지 입니다.</p>
+
 ### 💪 Skills
 #### Platforms & Languages
 <p>
