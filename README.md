@@ -13,7 +13,7 @@
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jossiya)](https://github.com/rolety2202/github-readme-stats)
 
 ### :bowtie: node.js와 react 를 server와 client로 나누어 진행하였습니다.
-<p>사용된 동영상은 출쳐 : https://www.pexels.com/ko-kr/videos/</p>
+<p>사용된 동영상 출쳐 : https://www.pexels.com/ko-kr/videos/</p>
 <p>
 전반적인 페이지를 만들 때 <b>프론트엔드 부분</b>은 리액트를 사용하고,
  <b>백엔드 부분</b>은 NodeJS와 ExpressJS를 사용합니다. <b>데이터베이스</b>는 AWS를 이용한 MYSQL을 이용해서 컨트롤 했습니다.
