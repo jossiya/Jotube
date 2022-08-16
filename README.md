@@ -19,7 +19,11 @@
  <b>백엔드 부분</b>은 NodeJS와 ExpressJS를 사용합니다. <b>데이터베이스</b>는 AWS를 이용한 MYSQL을 이용해서 컨트롤 했습니다.
  <br/>
  <br/>
- 기본적인 <b>로그인 기능</b>은 node.js에서 로그인 정보들은 세션에 담아 client로 넘겨 ```Redux Toolkit```을 사용하여 store에 저장하여 로그인 유지 기능과 인증 기능을 구현하였습니다.
+ 기본적인 <b>로그인 기능</b>은 node.js에서 로그인 정보들은 세션에 담아 client로 넘겨
+ ```
+ Redux Toolkit
+ ```
+ 을 사용하여 store에 저장하여 로그인 유지 기능과 인증 기능을 구현하였습니다.
 </p>
 
 
