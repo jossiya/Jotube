@@ -41,3 +41,11 @@
 #### 검색 자동 완성
 <img width="40%" src="https://user-images.githubusercontent.com/96179069/184887998-d873a676-20df-462e-99c6-3acf933df63d.jpg"/><br/>
 
+#### 구독한 사람들 영상
+<img width="40%" src="https://user-images.githubusercontent.com/96179069/184890116-03b16ba6-fe6d-4311-aca3-f7269fabbeaa.jpg"/><br/>
+
+#### 좋아요 페이지
+<img width="40%" src="https://user-images.githubusercontent.com/96179069/184890348-f2ee4be7-aa94-4924-aa88-65029e56720c.jpg"/><br/>
+
+
+
