@@ -91,6 +91,17 @@ dislikeget : async(req,res)=>{
         //좋아요가 이미 눌려 있다면, 싫어요를 1 줄여준다.
         const LikeDelete=await Like.likedelete(variable)
         res.json({success :response||LikeDelete||response })
+    },
+    likedVideo : async(req,res)=>{
+        const userid=req.body.uid
+        const LikedVideoIds=[]
+        // console.log(userid)
+        const VideoId=await Like.likedVideoId(userid)
+        VideoId.map((item)=>(
+            LikedVideoIds.push(item.videoid)
+        ))
+        const VideoInfos= await Like.likedVideos(LikedVideoIds)
+        return res.json({success: true ,VideoInfos})
     }
 }
 

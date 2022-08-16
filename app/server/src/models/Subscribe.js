@@ -42,13 +42,13 @@ class Subscribe{
     })
     };
     static Users(user){
-        console.log('db',user)
+        // console.log('db',user)
         return new Promise((resolve,reject)=>{
             const query="SELECT * FROM users3 WHERE uid in (?);"
             db.query(query,[user],(err,data)=>{
                 if(err) reject(`${err}`)
                 else{ resolve(data) 
-                console.log(data)
+                // console.log(data)
                 }
             })
         })

@@ -43,15 +43,15 @@ const process={
     sidesubscribed : async (req,res)=>{
        try{ const userFrom=req.body.userFrom
         const usersed=[]
-        console.log(userFrom)
+        // console.log(userFrom)
         const userTo= await Subscribe.SubscribeInfos(userFrom)
         userTo.map((users=>{
             usersed.push(users.userTo)
         }))
         if(usersed.length!==0){
-            console.log('useto',usersed)
+            // console.log('useto',usersed)
             const response= await Subscribe.Users(usersed)
-            console.log('구독 검색',response)
+            // console.log('구독 검색',response)
             return res.json({success : true , response})
         }else{
             res.json({success:true,response : []})

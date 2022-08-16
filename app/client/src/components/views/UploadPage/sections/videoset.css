@@ -43,8 +43,34 @@
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
 }
-@media screen and (max-width: 992px) {
+
+@media screen and (max-width: 1533px){
     #video-set{
-        margin-left: 1cm;
+        margin-left : 2rem
+    }
+}
+@media screen and (max-width: 1246px){
+    #video-set{
+        margin-left : 6rem
+    }
+}
+@media screen and (max-width: 1068px){
+    #video-set{
+        margin-left : 6rem
+    }
+}
+@media screen and (max-width: 992px){
+    #video-set{
+        margin-left : 2rem
+    }
+}
+
+@media screen and (max-width: 576px){
+    #video-set{
+        margin-left : 2rem;
+    }
+    .col-card{
+        /* width: 50% ;  */
+        padding : 0 5rem !important;
     }
 }

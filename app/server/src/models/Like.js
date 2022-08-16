@@ -66,6 +66,29 @@ class Like{
                 })
         })
     };
+    //좋아요한 비디오 정보 가져오기
+    static likedVideoId(uid){
+        return new Promise((resolve,reject)=>{
+            const query='SELECT videoid FROM liked where userid=?;';
+            db.query(query,[uid.uid],
+                (err,data)=>{
+                    if(err) reject(`${err}`)
+                    else resolve(data)
+                })
+        })
+    };
+    static likedVideos(videoid){
+        // console.log('db',videoid)
+        return new Promise((resolve,reject)=>{
+            const query='SELECT * FROM video left outer join users3 on users3.uid=video.writer where videoid in (?) order by video.in_date asc ;';
+            db.query(query,[videoid],
+                (err,data)=>{
+                    if(err) reject(`${err}`)
+                    else resolve(data)
+                        // console.log(data)
+                })
+        })
+    };
 }
 
 module.exports=Like

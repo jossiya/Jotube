@@ -1,0 +1,31 @@
+
+@media screen and (max-width: 1533px){
+    .l_page{
+        margin-left : 2rem
+    }
+}
+@media screen and (max-width: 1246px){
+    .l_page{
+        margin-left : 6rem
+    }
+}
+@media screen and (max-width: 1068px){
+    .l_page{
+        margin-left : 6rem
+    }
+}
+@media screen and (max-width: 992px){
+    .l_page{
+        margin-left : 2rem
+    }
+}
+
+@media screen and (max-width: 576px){
+    .l_page{
+        margin-left : 4rem;
+    }
+    .col-card{
+        /* width: 50% ;  */
+        padding : 0 5rem !important;
+    }
+}

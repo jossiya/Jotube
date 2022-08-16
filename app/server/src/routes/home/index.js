@@ -60,5 +60,8 @@ router.post('/profile/imageDelete',profile.process.imagedelete)
 router.post('/channel/video',vctrl.process.getcvideoinfos)
 router.post('/Channel/Subscribers',subscribe.process.subscribeNumber)
 router.post('/Channel/userInfo',ctrl.process.UserInfo)
+
+//좋아요한 비디오 페이지
+router.post('/LikedVideo',like.process.likedVideo )
 module.exports=router
 
