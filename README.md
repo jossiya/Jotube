@@ -55,5 +55,6 @@
 >>>업로드 상세페이지<br/>
    <img width="40%" src="https://user-images.githubusercontent.com/96179069/184892073-77ad34ec-f7cd-464b-bae2-6c0542da7da8.jpg"/><br/>
 
-
+#### :dizzy:프로필 변경 페이지
+<img width="40%" src="https://user-images.githubusercontent.com/96179069/184891405-aebe6bbf-8ea9-4711-9a41-63fd2a8843ef.jpg"/><br/>
 
