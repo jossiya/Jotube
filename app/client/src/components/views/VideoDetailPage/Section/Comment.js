@@ -34,7 +34,7 @@ function Comment(props) {
     })
   }
 
-  // console.log("코맨트",props.commentList)
+  console.log("코맨트",props.commentList)
 
 if(props&&props.userFrom!==undefined){
   // console.log(props.userFrom)
@@ -42,7 +42,16 @@ if(props&&props.userFrom!==undefined){
     <div>
       <br/>
       <p>댓글</p>
-      <hr/>
+      <Form className ='d-flex' >
+      <Form.Control  className='w-100 br-5'
+       value={commentValue} 
+       onChange={handleClick} 
+       placeholder='댓글 추가.'
+       style={{border:"white",borderBottom:"1px solid black"}}
+       />
+      <Button variant="outline-dark" style={{width : '15%' ,heigh : '52px'}}
+        onClick={onSubmit}>댓글</Button>
+    </Form>
       {props.commentList&&props.commentList.map((comment, index)=>(
         ((!comment.responseTo&&
         <React.Fragment key={index}>
@@ -55,19 +64,11 @@ if(props&&props.userFrom!==undefined){
 
       <SingleComment refreshFunction={props.refreshFunction} userFrom={props.userFrom} commentList={props.commentList}/>
 
-    <Form className ='d-flex' >
-      <Form.Control as = 'textarea' className='w-100 br-5'
-       value={commentValue} 
-       onChange={handleClick} 
-       placeholder='코멘트를 입력해주세요.'/>
-      <Button variant="outline-dark" style={{width : '15%' ,heigh : '52px'}}
-        onClick={onSubmit}>댓글</Button>
-
-    </Form>
+    
     </div>
   )
 }else{return null;}
   
 }
 
-export default Comment
+export default React.memo(Comment)

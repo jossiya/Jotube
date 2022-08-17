@@ -51,7 +51,7 @@ const { Meta } = Card;
             title={<div className='l_title' >{video.title}</div>}
         />
         <Nav.Link href={`/Channel/${video.writer}`} style={{color : "black",marginLeft: '2rem',paddingBottom : "0",fontSize : "0.8rem"}}>{video.nickname}</Nav.Link>
-        <span style={{ marginLeft: '3rem',fontSize : "0.8rem"  }}> 조회수 {video.views} </span>
+        <span style={{ marginLeft: '3rem',fontSize : "0.8rem"  }}> 조회수 {video.views}회 </span>
         <span style={{ fontSize : "0.8rem"  }}> {moment(video.in_date).format("YY년 MM월 DD일 hh:mm:ss")} </span>
           </Col>
           )

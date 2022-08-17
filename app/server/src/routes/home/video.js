@@ -27,7 +27,7 @@ const videoupload = multer({ storage: storage }).single("file")
 let storage2 = multer.diskStorage({
     destination: (req, file, cb) => {
         const filePath=file.originalname.replace('.jpg','')
-        console.log("form",filePath)
+        // console.log("form",filePath)
         cb(null, 'uploads/thumbnails/'+filePath+'/image')
     },
     filename: (req, file, cb) => {
@@ -100,11 +100,11 @@ const process={
     //드랍존 세이브
     uploadvideo :async (req,res)=>{
         const video= new Video(req.body)
-        console.log('클라쪽 데이타',video)
+        // console.log('클라쪽 데이타',video)
         const response = await video.videoupload()
         const videoid= await VideoInfo.getmyvideoinfo2(req.body.filePath)
-            console.log('db<<',videoid)
-        console.log('결과' ,response)
+        //     console.log('db<<',videoid)
+        // console.log('결과' ,response)
         return res.json({success:response,videoid})
     },
     //이미지
@@ -132,7 +132,7 @@ const process={
     },
     upgetvideo :async(req,res)=>{
         const videoid=req.body.videoid
-        console.log('클라',videoid)
+        // console.log('클라',videoid)
         const thumbnails=[]
         try{const video = await VideoInfo.videoInfo(videoid)
             fs.readdir(`uploads/thumbnails/${video.fileName}`+'/image',(err,stats)=>{
@@ -203,7 +203,7 @@ const process={
     },
     videodetailupload : async (req,res)=>{
         try{const videoinfo=req.body;
-        console.log('클라쪽',videoinfo)
+        // console.log('클라쪽',videoinfo)
         const response=await VideoInfo.VideoEndUpload(videoinfo)
         return res.json({success : response})
     }catch(err){
@@ -211,7 +211,8 @@ const process={
     }
     },
     getSubscriptionVideo :async(req,res)=>{
-        try{const userFrom = req.body.userFrom
+        try{
+        const userFrom = req.body.userFrom
         const response= await Subscribe.SubscribeInfos(userFrom)
         // console.log('구독한 사람 누구:',response)
         const subscribeTos=[]
@@ -227,6 +228,15 @@ const process={
         }catch(err){
             console.log('구독 에러',err)
             return{success : false,err}
+        }
+    },
+    viewscnt :async(req,res)=>{
+        try{
+            const videoid=req.body.videoid
+            const response=VideoInfo.viewscnt(videoid)
+            return res.json({success : response})
+        }catch(err){
+            return {success : false ,err}
         }
     },
 }

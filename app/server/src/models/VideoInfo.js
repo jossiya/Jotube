@@ -3,7 +3,7 @@ const db = require("../config/db");
 class VideoInfo{
     //모달 드랍존 기본 저장
     static save(videoInfo){
-        console.log('디비 정보',videoInfo)
+        // console.log('디비 정보',videoInfo)
         return new Promise((resolve,reject)=>{
             const query = "INSERT INTO video(videoid, writer, title, description, privacy,fileName, filePath, category, views, duration,thumbnailName,thumbnailPath) VALUES((REPLACE(UUID(),'-','')), ?, ?, ?,?,?,? ,? ,? ,? ,? ,? );";
         db.query(query,
@@ -40,7 +40,7 @@ class VideoInfo{
         })
     };
     static modalvideoInfo(videoid){
-        console.log('dbd',videoid)
+        // console.log('dbd',videoid)
         return new Promise((resolve, reject)=>{
             const query = "select * from video WHERE videoid=? order by title asc;";
             db.query(query, [videoid.videoid],(err, data)=>{
@@ -52,12 +52,12 @@ class VideoInfo{
         })
     };
     static getmyvideoinfos(uid){
-        console.log('db',uid.uid)
+        // console.log('db',uid.uid)
         return new Promise((resolve, reject)=>{
             const query = "select * from video WHERE writer=? order by title asc;";
             db.query(query, [uid.uid],(err, data)=>{
                 if(err) {reject(`${err}`);
-                console.log(data)
+                // console.log(data)
             }
                 else resolve(data)
             })
@@ -65,12 +65,12 @@ class VideoInfo{
     };
     //채널 비디오
     static getcvideoinfos(uid){
-        console.log('db',uid)
+        // console.log('db',uid)
         return new Promise((resolve, reject)=>{
             const query = "select * from video WHERE writer=? order by in_date asc;";
             db.query(query, [uid.uid],(err, data)=>{
                 if(err) {reject(`${err}`);
-                console.log(data)
+                // console.log(data)
             }
                 else resolve(data),console.log(data)
             })
@@ -102,7 +102,7 @@ class VideoInfo{
         })
     };
     static delete(Videoid){
-        console.log('dbde',Videoid)
+        // console.log('dbde',Videoid)
         return new Promise((resolve,reject)=>{
             const query="DELETE FROM video where filePath=? ;";
             db.query(query,[Videoid],
@@ -126,19 +126,30 @@ class VideoInfo{
     };
     //내가 구독한 비디오들 불러오기
     static subvideoInfos(user){
-        console.log('쿼리:',user)
+        // console.log('쿼리:',user)
         return new Promise((resolve, reject)=>{
             const query="select * from video left outer join users3 on users3.uid=video.writer where uid in (?) order by video.in_date asc;";
             db.query(query,[user],(err, data)=>{
                 if(err) {reject(`${err}`);
-                console.log('db쪽 구독한 비디오들',data)
+                // console.log('db쪽 구독한 비디오들',data)
             }
                 else resolve(data)
               
             })
         })
     };
-
+    //뷰 조회수 업데이트
+    static viewscnt(videoid){
+        // console.log("db",videoid)
+        return new Promise((resolve,reject)=>{
+            const query="UPDATE video SET views=views+1 where videoid=? ;";
+            db.query(query,[videoid.videoid],
+                (err,data)=>{
+                    if(err) reject(`${err}`)
+                    else resolve(true)
+                })
+        })
+    }
 }
 
 

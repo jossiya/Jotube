@@ -24,7 +24,7 @@ class Comment{
                     };
 
         static commentInfo(videoid){
-            console.log(videoid)
+            // console.log(videoid)
             return new Promise((resolve, reject)=>{
                 const query = "select * from comment left outer join users3 on users3.uid=comment.writer where videoId in (?);";
                         db.query(query,

@@ -48,6 +48,7 @@ router.post('/like/upLike',like.process.uplike)
 router.post('/like/unLike',like.process.unlike)
 router.post('/like/unDislike',like.process.undislike)
 router.post('/like/upDislike',like.process.upDislike)
+router.post('/ViewsCnt',vctrl.process.viewscnt)
 //구독한 사람 정보
 router.post('/subscriber',subscribe.process.sidesubscribed)
 

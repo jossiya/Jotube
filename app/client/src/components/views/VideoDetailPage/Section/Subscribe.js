@@ -8,20 +8,6 @@ function Subscribe(props){
     const [SubscribeNumber, setSubscribeNumber] = useState(0)
     const [Subscribed, setSubscribed] = useState(false)
     const user=useSelector(state=>state.user)
-    //    const userData = useSelector(
-    //     (state) => 
-    //     ({
-    //         userData: state.user['userData'],
-    //     }),
-    //     shallowEqual
-    //   );
-    
-    // if(userData['userData'] != undefined) {
-    // }
-        
-    
-    //console.log('유저정보이메일:',userData)
-
     useEffect(() => {
       let variable = { userTo : props.userTo}
     //   console.log('userTo:',variable)
@@ -36,8 +22,8 @@ function Subscribe(props){
         })
 
         if(user['userData'] !== undefined) {
-            console.log('유저정보 1 :', user['userData']['uid'])
-            let subscribeVariable = {userFrom : user['userData']['uid'], userTo : props.userTo,}
+            console.log('유저정보 1 :', user.userData?.uid)
+            let subscribeVariable = {userFrom : user.userData?.uid, userTo : props.userTo,}
             console.log("dds",subscribeVariable)
         axios.post('/api/subscribe/subscribed',subscribeVariable )
         .then(response=>{
@@ -56,7 +42,7 @@ function Subscribe(props){
     const onSubscribe=()=>{
 
         let subscribeVariable={
-            userFrom : user['userData']['uid'], userTo : props.userTo
+            userFrom : user.userData?.uid, userTo : props.userTo
         }
         if(Subscribed){
 
@@ -102,4 +88,4 @@ function Subscribe(props){
 }
 
 
-export default Subscribe
+export default React.memo(Subscribe)

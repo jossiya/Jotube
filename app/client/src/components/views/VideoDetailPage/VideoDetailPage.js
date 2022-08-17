@@ -28,11 +28,12 @@ function VideoDetailPage(props) {
     
     useEffect(() => {
         //sidebar 없애기
-        Sdisplay(false)
+        // Sdisplay(false)//이걸 하면 랜더링이 두번 되서 조회수가 2번올라간다 해결방법을 찾아보자....ㅠㅠ
+        //비디오정보
       axios.post('/api/video/getVideoDetail',variable)
       .then(response=>{
         if(response.data.success){
-            console.log('detail:',response.data)
+            // console.log('detail:',response.data)
             
             setVideoDetail(response.data.video)
         }else{
@@ -40,27 +41,35 @@ function VideoDetailPage(props) {
             alert('영상을 받아오지 못했습니다.')
         }
       });
-
+      //댓글
       axios.post('/api/comment/getComment',variable)
-      .then(response=>{
-        if(response.data.success){
-          setComments(response.data.comments)
-          // console.log(response.data.comments)
-        }else{
-          alert('코맨트 정보를 가져오지 못했습니다.')
-        }
-    })
-    
+            .then(response=>{
+              if(response.data.success){
+                setComments(response.data.comments)
+                // console.log(response.data.comments)
+              }else{
+                alert('코맨트 정보를 가져오지 못했습니다.')
+              }
+          })
     },[])
+    useEffect(() => {
+       //조횟수 
+       axios.post('/api/ViewsCnt',variable)
+       .then(response=>{
+         if(response.data.success){
+   
+         }else{
+           alert('조횟수 업데이트에 실패했습니다.')
+         }
+       })
+    }, [])
+    
     const refreshFunction=(newComment)=>{
       setComments(Comments.concat(newComment))
     }
-
-    if (user) {
-      console.log('프롭스 uid:',props.user.uid)
       if(VideoDetail.writer) {
 
-      const subscribeButton= VideoDetail.writer!==props.user.uid&&props.user.uid&& <Subscribe userTo={VideoDetail.writer} userFrom={props.user.uid} />
+      const subscribeButton= VideoDetail.writer!==props.user?.uid&& <Subscribe userTo={VideoDetail.writer} userFrom={props.user?.uid} />
     
       console.log('디테일 정보:',VideoDetail)
       return(
@@ -72,17 +81,17 @@ function VideoDetailPage(props) {
             <video  style={{ width: '98%' ,height:"600px"}} src={`http://localhost:5000/${VideoDetail.filePath}`} controls autoPlay loop={true} muted={false}></video>
             <div className='d_title'>{VideoDetail.title}</div>
                 <List.Item 
-                    actions={[<LikeDisLikes video userId={props.user.uid} videoId={videoid}/>,subscribeButton]}
+                    actions={[<LikeDisLikes video userId={props.user?.uid} videoId={videoid}/>,subscribeButton]}
                 >
                 <a></a>
                 <List.Item.Meta
                 avatar={<Avatar src={`http://localhost:5000/${VideoDetail.image}`}/>}
-                title={<a style={{textDecoration : "none"}} href={"#"}>{VideoDetail.name}</a>}
+                title={<a style={{textDecoration : "none"}} href={"#"}>{VideoDetail.nickname}</a>}
                 description={<div className='d_description'>{VideoDetail.description}</div>}
                 />
                 </List.Item>
                 {/* Comments */}
-                <Comment refreshFunction={refreshFunction} commentList={Comments} userFrom={props.user.uid} />
+                <Comment refreshFunction={refreshFunction} commentList={Comments} userFrom={props.user?.uid} />
             </div>
             </Col>
             <Col lg={7} xs={24}>
@@ -95,17 +104,11 @@ function VideoDetailPage(props) {
       )
     }
     else {
-      return (
-          <div>Loading...</div>
-      )
+      return null;
+      // return (
+      //     <div style={{fonstSize :"30px", margin : "3rem"}}>Loading...</div>
+      // )
   }
-    } else {
-      return null
-  }
-    
-
-  
-    
 }
 
-export default Auth(VideoDetailPage, null)
+export default Auth(React.memo(VideoDetailPage), null)

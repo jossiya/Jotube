@@ -52,7 +52,7 @@ function SearchPage(props) {
                         <div className='title' style={{fontSize:'1.6rem', color:'black'}}>{video.title}</div>
                         <span> 조회수 {video.views}</span>
                         
-                        <span style={{paddingTop : "1rem"}}>{video.name}</span>
+                        <span style={{paddingTop : "1rem"}}>{video.nickname}</span>
                         <div className='description' style={{paddingTop : "1rem"}}>{video.description}</div>
                         <span>{minutes} : {seconds} </span>
                     </a>

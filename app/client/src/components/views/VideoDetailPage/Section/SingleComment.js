@@ -54,15 +54,18 @@ function SingleComment(props) {
         <div>
             <Comment
                 actions={actions}
-                author={props.comment.name}
-                avatar={<Avatar src={props.comment.image} alt ='댓글'/>}
+                author={props.comment.nickname}
+                avatar={<Avatar src={`http://localhost:5000/${props.comment.image}`} alt ='댓글'/>}
                 content={<p>{props.comment.content}</p>}
             />
        {OpenReply&&  <Form className ='d-flex' onSubmit={onSubmit}>
-          <Form.Control as = 'textarea' className='w-100 br-5'
+          <Form.Control //as = 'textarea' 
+            className='w-100 br-5'
            value={CommentValue}
            onChange={CommentHandle}
-           placeholder='코멘트를 입력해주세요.'/>
+           placeholder='답글 추가.'
+           style={{border:"white",borderBottom:"1px solid black"}}
+           />
           <Button variant="outline-dark" style={{width : '15%' ,heigh : '52px'} } onClick={onSubmit}
             >댓글</Button>
     
@@ -73,4 +76,4 @@ function SingleComment(props) {
   }else{return null;}
 }
 
-export default SingleComment
+export default React.memo(SingleComment)
