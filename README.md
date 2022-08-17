@@ -30,7 +30,7 @@
  <img width="40%" src="https://user-images.githubusercontent.com/96179069/184885761-b1f32509-d370-4e93-892d-d9347f534160.jpg"/><br/>
 
 #### :dizzy:비디오 상세 페이지
-><img width="40%" src="https://user-images.githubusercontent.com/96179069/184897774-23a035fa-34a3-4322-961b-a039dbbfd59a.jpg"/><br/>
+><img width="40%" src="https://user-images.githubusercontent.com/96179069/185055201-193310d3-c638-47b9-a632-107adc35421a.jpg"/><br/>
 >> 구독 좋아요 댓글<br/>
  <img width="40%" src="https://user-images.githubusercontent.com/96179069/184889383-0b735a92-3b14-495f-b093-2c92fdacd237.jpg"/><br/>
 
