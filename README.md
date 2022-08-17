@@ -65,5 +65,6 @@
    <img width="40%" src="https://user-images.githubusercontent.com/96179069/184892073-77ad34ec-f7cd-464b-bae2-6c0542da7da8.jpg"/><br/>
    
 #### :dizzy:프로필 변경 페이지
+:fire:Dropzone을 이용하여 업로드 및 선택 취소 가 가능하도록 기능을 구현 하였으며, 별명 변경을 할 수 있습니다.
 <img width="40%" src="https://user-images.githubusercontent.com/96179069/185056270-b14293d9-c322-4634-b64a-6a04e881bd8e.jpg"/><br/>
 
