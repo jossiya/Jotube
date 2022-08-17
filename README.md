@@ -53,8 +53,9 @@
 이미지를 자동 저장하게 하였습니다.<br/>
   <img width="40%" src="https://user-images.githubusercontent.com/96179069/184891836-7a2d3761-0504-4593-9f8c-6c7aa54d17a9.jpg"/><br/>
 >>>업로드 상세페이지<br/>
+   :fire: server 쪽 DB와 이미지들과 vidoeData를 받아와서 기본적은 디폴트 값으로  내용들을 표시하게 하고 유저가 썸네일을 3가지중에서 고르거나 유저가 만든 이미지를 업로드 해 쓸 수 있도록 기능을 구현 하였습니다. 
    <img width="40%" src="https://user-images.githubusercontent.com/96179069/184892073-77ad34ec-f7cd-464b-bae2-6c0542da7da8.jpg"/><br/>
-
+   
 #### :dizzy:프로필 변경 페이지
 <img width="40%" src="https://user-images.githubusercontent.com/96179069/185056270-b14293d9-c322-4634-b64a-6a04e881bd8e.jpg"/><br/>
 
