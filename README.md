@@ -44,7 +44,7 @@
 >>🔥구독
 >>댓글
 >>좋아요
- <img width="40%" src="https://user-images.githubusercontent.com/96179069/185055538-ffe618c3-0433-4556-ba90-4e2c3dd69c8d.jpg"/><br/>
+>><img width="40%" src="https://user-images.githubusercontent.com/96179069/185055538-ffe618c3-0433-4556-ba90-4e2c3dd69c8d.jpg"/><br/>
 
 #### :dizzy:검색 자동 완성
 :fire:filter를 사용하여 검색 value에 맞는 동영상 title을 비교하여 자동완성 기능 을 구현하였습니다.
