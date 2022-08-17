@@ -47,6 +47,8 @@
 <img width="40%" src="https://user-images.githubusercontent.com/96179069/184891038-53623f89-b331-4f8b-874c-d0a5fb955a76.jpg"/><br/>
 
 #### :dizzy:채널 콘텐츠
+  :fire: 동영상 상세 관리 및 삭제 기능과 페이지네이션 기능으로 페이지당 동영상 갯수를 설정 할 수 있습니다.
+  
 ><img width="40%" src="https://user-images.githubusercontent.com/96179069/184891405-aebe6bbf-8ea9-4711-9a41-63fd2a8843ef.jpg"/><br/>
 >>:vertical_traffic_light:업로드<br/>
 :fire:<b>동영상 업로드</b>는 Dropzone을 사용하여 server로 넘겨 multer으로 서버에서 저장하게 하였고, ffmpeg을 사용하여 동영상 자동 스크린샷을 찍게 하여
