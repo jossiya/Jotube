@@ -41,7 +41,7 @@
 🔥비디오 영상 시청 페이지입니다. 구독과 좋아요 댓글 기능 과 오른쪽 사이드에는 다른 영상을 볼수 있는 링크를 구현하였습니다.
 ><img width="40%" src="https://user-images.githubusercontent.com/96179069/185055201-193310d3-c638-47b9-a632-107adc35421a.jpg"/><br/>
 >>:vertical_traffic_light:구독 좋아요 댓글<br/>
->>🔥구독:<br/>
+>>🔥구독:구독 버튼(자신동영상은 보이지 않게함)을 클릭하면 유저의 id와 writer의 id가 DB로 저장이 되고 페이지 랜더 시 writer의 id로 구독자 테이블을 검색하여 배열의 갯수가 구독자 수로 나와 표시됩니다.<br/>
 >>댓글:<br/> 
 >>좋아요:<br/> 
 >><img width="40%" src="https://user-images.githubusercontent.com/96179069/185055538-ffe618c3-0433-4556-ba90-4e2c3dd69c8d.jpg"/><br/>
