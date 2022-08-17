@@ -32,7 +32,7 @@
 #### :dizzy:비디오 상세 페이지
 ><img width="40%" src="https://user-images.githubusercontent.com/96179069/185055201-193310d3-c638-47b9-a632-107adc35421a.jpg"/><br/>
 >> 구독 좋아요 댓글<br/>
- <img width="40%" src="https://user-images.githubusercontent.com/96179069/184889383-0b735a92-3b14-495f-b093-2c92fdacd237.jpg"/><br/>
+ <img width="40%" src="https://user-images.githubusercontent.com/96179069/185055538-ffe618c3-0433-4556-ba90-4e2c3dd69c8d.jpg"/><br/>
 
 #### :dizzy:검색 자동 완성
 <img width="40%" src="https://user-images.githubusercontent.com/96179069/184894244-32c231d1-8aff-4edd-94f8-3f947b289007.jpg"/><br/>
