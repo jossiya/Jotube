@@ -42,8 +42,8 @@
 ><img width="40%" src="https://user-images.githubusercontent.com/96179069/185055201-193310d3-c638-47b9-a632-107adc35421a.jpg"/><br/>
 >>:vertical_traffic_light:구독 좋아요 댓글<br/>
 >>🔥구독:<br/>
->>댓글
->>좋아요
+>>댓글:<br/> 
+>>좋아요:<br/> 
 >><img width="40%" src="https://user-images.githubusercontent.com/96179069/185055538-ffe618c3-0433-4556-ba90-4e2c3dd69c8d.jpg"/><br/>
 
 #### :dizzy:검색 자동 완성
