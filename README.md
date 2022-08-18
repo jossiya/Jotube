@@ -12,7 +12,9 @@
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jossiya)](https://github.com/rolety2202/github-readme-stats)
 
-### :bowtie: node.js와 react 를 server와 client로 나누어 진행하였습니다.
+#### :bowtie: 목표 : React로 YOUTUE 기능 구현하기
+
+### :bowtie:node.js와 react 를 server와 client로 나누어 진행하였습니다.
 
 <p>사용된 동영상 출쳐 : https://www.pexels.com/ko-kr/videos/</p>
 <p>
