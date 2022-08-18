@@ -150,7 +150,7 @@ useEffect(() => {
               <td>{item.privacy===0 ?"비공개":"공개"}</td>
               <td>{item.restriction==="1"?"가능":"불가능"}</td>
               <td> <div style={{width:"8rem",margin:"0"}}> {moment(item.in_date).format("YY년 MM월 DD일 hh:mm:ss")} </div></td>
-              <td>{item.views}</td>
+              <td>{item.views}회</td>
               <td>없음</td>
               <td>좋아요!</td>
             </tr>

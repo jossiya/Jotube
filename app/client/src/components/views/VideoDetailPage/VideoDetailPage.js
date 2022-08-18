@@ -26,9 +26,10 @@ function VideoDetailPage(props) {
     const [VideoDetail, setVideoDetail] = useState([])
     const [Comments, setComments] = useState([])
     
+    
     useEffect(() => {
         //sidebar 없애기
-        // Sdisplay(false)//이걸 하면 랜더링이 두번 되서 조회수가 2번올라간다 해결방법을 찾아보자....ㅠㅠ
+        Sdisplay(false)
         //비디오정보
       axios.post('/api/video/getVideoDetail',variable)
       .then(response=>{
@@ -54,14 +55,14 @@ function VideoDetailPage(props) {
     },[])
     useEffect(() => {
        //조횟수 
-       axios.post('/api/ViewsCnt',variable)
-       .then(response=>{
-         if(response.data.success){
-   
-         }else{
-           alert('조횟수 업데이트에 실패했습니다.')
-         }
-       })
+        axios.post('/api/ViewsCnt',variable)
+        .then(response=>{
+          if(response.data.success){
+            
+          }else{
+            alert('조횟수 업데이트에 실패했습니다.')
+          }
+        })
     }, [])
     
     const refreshFunction=(newComment)=>{
@@ -76,7 +77,6 @@ function VideoDetailPage(props) {
         <div style={{width : "100%"}}>
           <Row gutter={[16, 16]}>
             <Col lg={17} xs={24}>
-              
             <div  id='detail-main' style={{width:'100%',padding : '3rem 0',paddingLeft:"2rem",marginTop :'1rem' }} >
             <video  style={{ width: '98%' ,height:"600px"}} src={`http://localhost:5000/${VideoDetail.filePath}`} controls autoPlay loop={true} muted={false}></video>
             <div className='d_title'>{VideoDetail.title}</div>

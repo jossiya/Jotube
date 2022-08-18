@@ -40,7 +40,7 @@
 .search_container{
   position: absolute;
   z-index: 3;
-  width: 91%;
+  width: 100%;
   background: white;
   border: 1px solid #DCDCDC;
   display: flex;
@@ -53,7 +53,7 @@
   background: 	#DCDCDC;
 }
 .search-button{
-  width: 70vh;
+  width: 70%;
 }
 .search-button input{
   box-shadow: rgba(50, 50, 93, 0.25) 0px 1px 1px 0 inset;

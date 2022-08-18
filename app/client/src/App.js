@@ -44,18 +44,7 @@ function App() {
         
           <LeftSidebar show={SideCtrl} Sdisplay={SideNone}/>
         </Col>}
-        {SideNone===false&&<Col  lg='12' style={{padding : 0}}>
-          <Routes>
-          <Route path="/" element={<LandingPage Sdisplay={SideBarNone}/>} />
-          <Route path="/login" element={<LoginPage />}/>
-          <Route path="/register" element={<RegisterPage />} />
-          <Route path="/VideoSetPage/:uid" element={<VideoSetPage/>}/>
-          <Route path="/UploadSetPage/:videoid" element={<UploadDetailPage/>}/>
-          <Route path="/watch/:videoid" element={<VideoDetailPage Sdisplay={SideBarNone}/>}/>
-          <Route exact path="/Subscription" element={<SubscriptionPage/>} />
-          </Routes>
-        </Col>}
-        {SideNone&&<Col  lg={`${SideCtrl? "11" :"10"}`} style={{padding : 0}}>
+        <Col  lg={`${SideCtrl? "11" :"10"}`} style={{padding : 0}}>
           <Routes>
           <Route path="/" element={<LandingPage Sdisplay={SideBarNone}/>} />
           <Route path="/login" element={<LoginPage />}/>
@@ -69,7 +58,7 @@ function App() {
           <Route exact path="/Channel/:uid" element={<Channel/>}/>
           <Route exact path="/LikedVideoPage/:uid" element={<LikedVideoPage/>}/>
           </Routes>
-        </Col>}
+        </Col>
       </Row>
     </Router>
   </Suspense>

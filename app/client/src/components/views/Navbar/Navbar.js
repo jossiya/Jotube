@@ -18,6 +18,7 @@ function NavBar(props) {
   
   // console.log("나브")
   const [sideShow, setsideShow] = useState(false);
+
   const loginUnReroad=(e)=>{
     e.preventDefault();
     navigate('/login')
@@ -45,7 +46,8 @@ function NavBar(props) {
       console.log("나브1",user.userData&&!user.userData.isAuth)
       return (
         <>
-        <Navbar key="lg" bg="light" expand="lg" className="mb-3" fixed='top'>
+        {/*expand="lg"*/}
+        <Navbar key="lg" bg="light"  className="mb-3" fixed='top'>
           <Container fluid>
             <div className='d-flex' style={{marginLeft :"-15px"}}>
             {props.Sdisplay&&<AiOutlineMenu  className='d-none d-lg-block' style={{margin :"8px"}}  onClick={SideBarCtrl} size='2rem'/>}
@@ -73,23 +75,23 @@ function NavBar(props) {
       console.log("나브2",props.Sdisplay)
       return (
         <>
-        <Navbar key="lg" bg="light" expand="lg" className="mb-3" fixed='top'  >
+        <Navbar key="lg" bg="light"  className="mb-3" fixed='top'  >
           <Container fluid style={{display:'flex',width : '100%'}}>
-            <div className='d-flex' style={{marginLeft :"-15px"}}>
+            <Nav className='d-flex' style={{marginLeft :"-15px"}}>
             {props.Sdisplay&&<AiOutlineMenu  className='d-none d-lg-block' style={{margin :"8px"}}  onClick={SideBarCtrl} size='2rem'/>}
             
               {/* 사이드 오프켄버스 */}
               <LeftOffcanvas Sdisplay={props.Sdisplay} />
               <Navbar.Brand href="/"><img src={Logo} alt="Logo" style={{ width: '150px',marginLeft : "10px", marginTop: '-5px' }} /></Navbar.Brand>
-            </div>
+            </Nav>
             {/* 검색 기능 */}
-            <Nav>
+            <Nav style={{width : '70%'}}>
             <SearchBar/>
             </Nav>
             {/* 오른쪽 사이드바 */}
-            <div className='d-flex'>
+            <Nav>
               <RightSidebar LeftShow={ShowSide}/>
-            </div>
+            </Nav>
           </Container>
         </Navbar>
         </>
@@ -99,4 +101,4 @@ function NavBar(props) {
     return null;
   }
 }
-export default NavBar
+export default React.memo(NavBar)

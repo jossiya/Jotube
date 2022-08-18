@@ -43,7 +43,7 @@ function SearchBar() {
     return (
         <>
         <Form style={{width : "100%"}} >
-            <div className="search"  style={{position: "relative"}}>
+            <div className="search"  style={{position: "relative", display:"flex" ,justifyContent: "center"}}>
             <div className='search-button d-flex' >
                 <input 
                 className="search-bar"
@@ -65,7 +65,7 @@ function SearchBar() {
                 style={{width:'65px' ,border:"1px solid rgb(220,220,220)"}}
                 ><AiOutlineSearch size='25'/></button>
             </div>
-            <div className='search_container'>
+            <div className='search_container' style={{width : '70%'}}>
             {Search.map((item,index) => {
                 return( <div key={index} className="search-result" style={{}} >
                     <Nav.Link to={"/info/"} >
