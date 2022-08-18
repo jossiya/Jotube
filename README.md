@@ -13,6 +13,7 @@
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jossiya)](https://github.com/rolety2202/github-readme-stats)
 
 ### :bowtie: node.js와 react 를 server와 client로 나누어 진행하였습니다.
+
 <p>사용된 동영상 출쳐 : https://www.pexels.com/ko-kr/videos/</p>
 <p>
 전반적인 페이지를 만들 때 <b>프론트엔드 부분</b>은 리액트를 사용하고,
@@ -24,10 +25,12 @@
  <b>JavaScript</b>로 공부를 하다가 최근 <b>React</b>를 많이 사용하고 처음 배우는 것은 어렵지만 사용할 줄 알면 많이 유용하다하여,<br/> 
   <b>연습 프로젝트</b>를 고민하던 중 yotube에 올라온 <b>클론 페이지 사이트 만들기 영상</b>을 보면서 만들게 되었고, <br/>
    처음 만든 클론 사이트는 <b>redux createStore</b>로 만들었지만 권장되지 않는 다 하여 <b>Redux Toolkit</b> 으로 새로 만들게 되었습니다.
-   <br/><b>새롭게 만든 페이지는 youtube 홈페이지를 보며 지금 자신이 구현할 수 있는 기능들을  만들었습니다</b>.
-   
+   <br/><b>새롭게 만든 페이지는 youtube 홈페이지를 보며 지금 자신이 구현할 수 있는 기능들을  만들었습니다.</b>
 </p>
-
+### 문제점/부족한점
+<p>React로 웹페이지를 만들면서 처음에 제일 문제가 되었던 것은 Redux Store에서 데이터를 받아오기전에 홈페이지가 먼저 랜더링 되어 data가 빈 값으로 들어오는 것이였습니다.
+이러한 문제때문에 처음에는 페이지하나 만드는데 시간이 너무 많이 걸렸습니다. 처음에는 페이지 오류가 뜨면 이게 왜 뜨는지도 모르고, 자료 찾는 방법을 잘 모르고 그 자료를 찾아도 이 코드가 왜 이렇게 작동하는지도 몰랐기 때문에 많이 힘들었습니다.
+</p>
 
 ## 전반적인 페이지 구현
 #### :dizzy:랜딩 페이지
