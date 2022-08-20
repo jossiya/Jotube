@@ -65,7 +65,7 @@
 
 #### :dizzy:좋아요 페이지
 :fire:비디오 영상 시청 페이지에서 좋아요를 하면 좋아요 한 영상들이 페이지에 출력됩니다.<br/>
-<img width="40%" src="https://user-images.githubusercontent.com/96179069/184890348-f2ee4be7-aa94-4924-aa88-65029e56720c.jpg"/><br/>
+<img width="40%" src="https://user-images.githubusercontent.com/96179069/185737633-d71e2838-c92b-4b67-8584-10e6215231bd.jpg"/><br/>
 
 #### :dizzy:내채널
 🔥유저 자신이 올린 동영상들이 출력되게한 페이지입니다. 채널 관리 페이지는 아직 구현하지 못했습니다.<br/>
