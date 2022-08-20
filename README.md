@@ -61,7 +61,7 @@
 
 #### :dizzy:구독한 사람들 영상
 :fire:비디오 영상 시청 페이지에서 구독을 하면 구독자들의 영상들이 페이지에 출력됩니다.<br/>
-<img width="40%" src="https://user-images.githubusercontent.com/96179069/184890116-03b16ba6-fe6d-4311-aca3-f7269fabbeaa.jpg"/><br/>
+<img width="40%" src="https://user-images.githubusercontent.com/96179069/185737674-192e6af4-424b-4f43-a53e-c2a121d5264a.jpg"/><br/>
 
 #### :dizzy:좋아요 페이지
 :fire:비디오 영상 시청 페이지에서 좋아요를 하면 좋아요 한 영상들이 페이지에 출력됩니다.<br/>
