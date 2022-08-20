@@ -43,7 +43,7 @@
 썸네일을 클릭하면 비디오 시청 페이지로 갈 수 있습니다.
 ><img width="40%" src="https://user-images.githubusercontent.com/96179069/184885127-2cfea83f-6f88-45b3-bbc3-ae51daf961eb.jpg"/><br/>
 >> 로그인 후<br/>
- <img width="40%" src="https://user-images.githubusercontent.com/96179069/184885761-b1f32509-d370-4e93-892d-d9347f534160.jpg"/><br/>
+ <img width="40%" src="https://user-images.githubusercontent.com/96179069/185736923-3ed867e2-6b94-42a5-a999-a5e791e194f5.jpg"/><br/>
 
 #### :dizzy:비디오 상세 페이지
 🔥비디오 영상 시청 페이지입니다. 구독과 좋아요 댓글 기능 과 오른쪽 사이드에는 다른 영상을 볼수 있는 링크를 구현하였습니다.
