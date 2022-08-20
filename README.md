@@ -41,7 +41,7 @@
 #### :dizzy:랜딩 페이지
 🔥최신으로 올라온 영상을 먼져 보이도록 한 JOTUBE 시작 페이지 입니다.
 썸네일을 클릭하면 비디오 시청 페이지로 갈 수 있습니다.
-><img width="40%" src="https://user-images.githubusercontent.com/96179069/184885127-2cfea83f-6f88-45b3-bbc3-ae51daf961eb.jpg"/><br/>
+><img width="40%" src="https://user-images.githubusercontent.com/96179069/185737167-735f30c2-0a23-4cfb-b4ff-6edaf436bc98.jpg"/><br/>
 >> 로그인 후<br/>
  <img width="40%" src="https://user-images.githubusercontent.com/96179069/185736923-3ed867e2-6b94-42a5-a999-a5e791e194f5.jpg"/><br/>
 
