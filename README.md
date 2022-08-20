@@ -57,7 +57,7 @@
 #### :dizzy:검색 자동 완성
 :fire:filter를 사용하여 검색 value에 맞는 동영상 title을 비교하여 자동완성 기능 을 구현하였습니다.
 자동 완성에 뜬 value를 클릭하면 검색창에 추가 되며 검색을 누를 시 그 동영상 title과 연관된 동영상들이 검색 페이지에 뜨게 됩니다.<br/>
-<img width="40%" src="https://user-images.githubusercontent.com/96179069/184894244-32c231d1-8aff-4edd-94f8-3f947b289007.jpg"/><br/>
+<img width="40%" src="https://user-images.githubusercontent.com/96179069/185737119-c5b3284f-8894-455b-b6cb-a15d607ec0a5.jpg"/><br/>
 
 #### :dizzy:구독한 사람들 영상
 :fire:비디오 영상 시청 페이지에서 구독을 하면 구독자들의 영상들이 페이지에 출력됩니다.<br/>
