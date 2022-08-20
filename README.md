@@ -69,7 +69,7 @@
 
 #### :dizzy:내채널
 🔥유저 자신이 올린 동영상들이 출력되게한 페이지입니다. 채널 관리 페이지는 아직 구현하지 못했습니다.<br/>
-<img width="40%" src="https://user-images.githubusercontent.com/96179069/184891038-53623f89-b331-4f8b-874c-d0a5fb955a76.jpg"/><br/>
+<img width="40%" src="https://user-images.githubusercontent.com/96179069/185737017-5f73939a-8ba8-4f6b-bc5b-7700222d7ddf.jpg"/><br/>
 
 #### :dizzy:채널 콘텐츠
   :fire: 동영상 상세 관리 및 삭제 기능과 페이지네이션 기능으로 페이지당 동영상 갯수를 설정 할 수 있습니다.<br/>
